@@ -73,7 +73,7 @@ Table 2.6 Electric power sector energy consumption
 Table 5.2 Wells and footage drilled
 Table 7.3b Consumption of combustible fuelsfor electricity generation: Electric power sector
 Table 4.3 Consumption by sector
-Table 7.7c Electric net summer capacity: Commercial sector
+Table 7.7c Electric net summer capacity: Commercial sector3
 Table 7.5 Stocks of coal and petroleum: electric power sector
 Table 10.1 Production and consumption by source
 Table 3.7a Residential and commercial sectors
