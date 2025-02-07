@@ -1,0 +1,113 @@
+Table 6.1 Overview
+Table 11.5 Carbon dioxide emissions from energy consumption: Transportation sector
+Table 1.5 Merchandise trade value
+Table 2.3 Commercial sector energy consumption
+Table 3.8a Residential and commercial sectors
+Table 3.2 Refinery and blender net inputs and net production
+Table 9.8 Average prices of electricity to ultimate customers
+Table 7.2a Electricity net generation: Total (all sectors)
+Table 10.4a Biodiesel overview
+Table E4 Renewable Energy Production and Consumption by Source, Fossil Fuel Equivalency Approach
+Table 1.9 Light-Duty Vehicle Average Miles Traveled by Technology Type
+Table 3.3e Exports by type
+Table A5 Coal and coal coke
+Table 9.4 Retail motor gasoline and on-highway diesel fuel prices
+Table 7.8c Capacity factors and usage factors at electric generators: Commercial sector
+Table 7.8b Capacity factors and usage factors at electric generators: Electric power sector
+Table 9.5 Refiner prices of residual fuel oil
+Table 7.4a Consumption of combustible fuels for electricity generation and useful thermal output: Total (all sectors)
+Table 10.2a Consumption: residential and commercial sectors
+Table A4 Natural gas
+Table 3.3d Imports from non-OPEC countries
+Table 1.8 Motor vehicle mileage, fuel consumption, and fuel economy
+Table 10.5 Solar energy consumption
+Table 7.1 Overview
+Table 9.9 Cost of fossil-fuel receipts at electric generating plants
+Table 1.12 Cooling degree-days by census division
+Table 2.2 Residential sector energy consumption
+Table 11.4 Carbon dioxide emissions from energy consumption: Industrial sector
+Table 3.7b Industrial sector
+Table E2 Primary Energy Production by Source, Fossil Fuel Equivalency Approach
+Table 3.3c Imports from OPEC countries
+Table A3 Petroleum consumption and fuel ethanol
+Table 9.2 F.O.B. costs of crude oil imports from selected countries
+Table 1.4a Primary energy imports by source
+Table 4.2b Exports by country
+Table 1.13b Heat content of non-combustion use of fossil fuels
+Table 1.3 Primary energy consumption by source
+Table 11.3 Carbon dioxide emissions from energy consumption: Commercial sector
+Table 2.5 Transportation sector energy consumption
+Table 5.1 Drilling activity measurements
+Table 7.3a Consumption of combustible fuels for electricity generation: Total (all sectors)
+Table 3.4 Stocks
+Table 7.6 Electricity end use and electric vehicle use
+Table 10.3 Fuel ethanol overview
+Table 7.7a Electric net summer capacity: Total (all sectors)
+Table 4.1 Overview
+Table 2.1b Energy consumption: Transportation sector, total end-use sectors, and electric power sector
+Table 3.5 Products supplied by type
+Table 2.4 Industrial sector energy consumption
+Table 1.2 Primary energy production by source
+Table 11.2 Carbon dioxide emissions from energy consumption: Residential sector
+Table 7.8d Capacity factors and usage factors at electric generators: Industrial sector
+Table 9.3 Landed costs of crude oil imports from selected countries
+Table 8.2 Uranium overview
+Table A2 Petroleum production, imports, and exports
+Table 2.8  U.S. government energy consumption by source, fiscal years
+Table 3.3b Imports and exports by type
+Table E3 Primary Energy Consumption by Source, Fossil Fuel Equivalency Approach
+Table 3.7c Transportation and electric power sectors
+Table 1.4c Primary energy net imports by source
+Table 8.1 Nuclear energy overview
+Table 3.3a Trade Overview
+Table 7.7b Electric net summer capacity: Electric power sector
+Table 2.1a Energy consumption: Residential, commercial, and industrial sectors
+Table 3.6 Heat content of petroleum products supplied by type
+Table C1 Population, U.S. gross domestic product, and U.S. gross output
+Table 7.3c Consumption of combustible fuelsfor electricity generation: Commercial and industrial sectors (selected fuels)
+Table 2.7  U.S. government energy consumption by agency, fiscal years
+Table 11.1 Carbon dioxide emissions from energy consumption: By source
+Table 1.1 Primary energy overview
+Table 1.13a Non-combustion use of fossil fuels in physical units
+Table 2.6 Electric power sector energy consumption
+Table 5.2 Wells and footage drilled
+Table 7.3b Consumption of combustible fuelsfor electricity generation: Electric power sector
+Table 4.3 Consumption by sector
+Table 7.7c Electric net summer capacity: Commercial sector
+Table 7.5 Stocks of coal and petroleum: electric power sector
+Table 10.1 Production and consumption by source
+Table 3.7a Residential and commercial sectors
+Table E1 Primary Energy Overview, Fossil Fuel Equivalency Approach
+Table 1.4b Primary energy exports
+Table 9.1 Crude oil price summary
+Table 4.2a Imports by country
+Table 10.6 Solar electricity net generation
+Table 10.4c Other biofuels overview
+Table 7.2c Electricity net generation: Commercial and industrial sectors
+Table 7.7d Electric net summer capacity: Industrial sector
+Table 4.4 Underground storage
+Table 3.8c Transportation and electric power sectors
+Table 1.11 Heating degree-days by census division
+Table 1.7 Primary energy consumption, energy expenditures, and carbon dioxide emissions indicators
+Table 11.7 Carbon dioxide emissions from energy consumption: Biomass
+Table 6.3 Stocks by sector
+Appendix F: Monthly state EV infrastructure file
+Table 9.10 Natural gas prices
+Table 7.8a Capacity factors and usage factors at electric generators: Total (all sectors)
+Table 9.6 Refiner prices of petroleum products for resale
+Table 7.4b Consumption of combustible fuels for electricity generation and useful thermal output: Electric power sector
+Table 10.2b Consumption: industrial sector
+Table 3.3f Exports by country of destination
+Table A6 Approximate heat rates for electricity,
+Table 10.2c Consumption: transportation and electric power sectors
+Table 7.4c Consumption of combustible fuels for electricity generation and useful thermal output: Commercial and industrial sectors (selected fuels)
+Table 9.7 Refiner prices of petroleum products to end users
+Table 6.2 Consumption by sector
+Table 1.6 Cost of fuels to end users in real (1982-1984) dollars
+Table 11.6 Carbon dioxide emissions from energy consumption: Electric power sector
+Table 1.10 Electric and fuel cell electric light-duty vehicles overview
+Table 3.8b Industrial sector
+Table 3.1 Overview
+Table F1. Electric Vehicle Charging Infrastructure
+Table 7.2b Electricity net generation: Electric power sector
+Table 10.4b Renewable diesel fuel overview
