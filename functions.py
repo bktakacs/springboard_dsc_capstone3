@@ -5,7 +5,7 @@ import os
 datapath = './data/'
 
 # Function to load and preprocess data
-def load_data(filename, verbose: bool = False):
+def load_data(filename, verbose: bool = True):
     df = pd.read_csv(datapath + filename)
     df['Month'] = pd.to_datetime(df['Month'])
     df.set_index('Month', inplace=True)
@@ -14,3 +14,5 @@ def load_data(filename, verbose: bool = False):
 
     if verbose:
         print(f'Data loaded from: {filename}', df.isnull().sum())
+
+    return df
