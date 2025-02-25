@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import os
 
-datapath_data = './springboard_dsc_capstone3/dataex/'
+datapath_data = './springboard_dsc_capstone3/data/'
 datapath_file = './springboard_dsc_capstone3/'
 
 # Create table-names.txt file to list table names and their descriptions
