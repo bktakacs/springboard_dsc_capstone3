@@ -13,6 +13,9 @@ def load_data(filename, verbose: bool = True):
         df[col] = pd.to_numeric(df[col], errors='coerce')
 
     if verbose:
-        print(f'Data loaded from: {filename}', df.isnull().sum())
+        # print(f'\n\nData loaded from: {filename}', df.isnull().sum())
+        print('\n\nData loaded from: {}\n{}\n\n'.format(
+            filename, df.isnull().sum
+        ))
 
     return df
