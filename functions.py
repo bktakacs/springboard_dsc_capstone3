@@ -85,7 +85,7 @@ def model_eval(data, pvals, dvals, qvals):
 ################################################################################
 
 def decomposition(data, model='additive'):
-    decomp = seasonal_decompose(data, model='additive')
+    decomp = seasonal_decompose(data, model=model)
 
     trend = decomp.trend
     seasonal = decomp.seasonal
