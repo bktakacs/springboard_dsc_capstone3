@@ -91,6 +91,7 @@ def decomposition(data, model='additive'):
     seasonal = decomp.seasonal
     residual = decomp.resid
 
+    plt.figure(figsize=(12,8))
     plt.subplot(411)
     plt.plot(data, label='Original')
     plt.legend(loc='best')
