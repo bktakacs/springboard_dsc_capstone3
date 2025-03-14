@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import os
 from sklearn.metrics import mean_squared_error
 from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.stattools import kpss
 
@@ -62,17 +63,46 @@ def arima_mse(data, order):
 
 ################################################################################
 
-def model_eval(data, pvals, dvals, qvals):
+def sarima_mse(y, exog, order):
+    split = int(len(y) * 0.8)
+    train_y, test_y = y[0:split], y[split:]
+    train_exog, test_exog = exog[0:split], exog[split:]
+    past_y = [x for x in train_y]
+    past_exog = [x for x in train_exog]
+
+    predictions = list()
+    for i in range(len(test_y)):
+        model = SARIMAX(past_y, exog=past_exog, order=order)
+        model_fit = model.fit()
+        future = model_fit.forecast(exog=[past_exog[i]])[0]
+        predictions.append(future)
+        past_y.append(test_y[i])
+        past_exog.append(test_exog[i])
+
+    error = mean_squared_error(test_y, predictions)
+
+    return error
+
+################################################################################
+
+def model_eval(data, pvals, dvals, qvals, exog=None):
     '''
     Function to evaluate different ARIMA models with several different p, d, and q values.
     '''
+
+    if exog is None:
+        print('Evaluating ARIMA models...')
+    else:
+        print('Evaluating SARIMA models...')
+
+
     best_score, best_cfg = float('inf'), None
     for p in pvals:
         for d in dvals:
             for q in qvals:
                 order = (p, d, q)
                 try:
-                    mse = arima_mse(data, order)
+                    mse = arima_mse(data, order) if exog==None else sarima_mse(data, exog, order)
                     if mse < best_score:
                         best_score, best_cfg = mse, order
                     print('ARIMA%s MSE=%.3E' % (order, mse))
