@@ -138,3 +138,6 @@ def decomposition(data, model='additive'):
     plt.show()
 
     return decomp
+
+################################################################################
+# def plot_model(fitted_model, forecast, title, ):
