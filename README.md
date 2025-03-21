@@ -11,9 +11,9 @@ This project aims to predict U.S. monthly energy prices using machine learning a
 │-- 📂 notebooks               # Jupyter notebooks with analysis and model development
 │-- 📂 scripts                 # Python scripts for converting data and defining functions
 |-- Capstone Three Report.pdf  # Project report with final findings
-|-- glossary.pdf                # Explanation from EIA of terms used in data
+|-- glossary.pdf               # Explanation from EIA of terms used in data
 |-- model-metrics.pdf          # Information on final models
-│-- README.md            # Project documentation
+│-- README.md                  # Project documentation
 ```
 
 ## Data Sources
