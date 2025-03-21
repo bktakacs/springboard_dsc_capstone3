@@ -8,7 +8,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.stattools import kpss
 
-datapath = './data/'
+datapath = '../data/'
 
 # Function to load and preprocess data
 def load_table_data(filename):
@@ -23,6 +23,7 @@ def load_table_data(filename):
     
     except:
         print('Error loading data from: {}'.format(filename))
+        print(os.getcwd())
         df = None
 
     return df
@@ -41,76 +42,6 @@ def load_csv_data(filename):
         df = None
 
     return df
-
-################################################################################
-
-def arima_mse(data, order):
-    split = int(len(data) * 0.8)
-    train, test = data[0:split], data[split:]
-    past = [x for x in train]
-
-    predictions = list()
-    for i in range(len(test)):
-        model = ARIMA(past, order=order)
-        model_fit = model.fit()
-        future = model_fit.forecast()[0]
-        predictions.append(future)
-        past.append(test[i])
-
-    error = mean_squared_error(test, predictions)
-    
-    return error
-
-################################################################################
-
-def sarima_mse(y, exog, order):
-    split = int(len(y) * 0.8)
-    train_y, test_y = y[0:split], y[split:]
-    train_exog, test_exog = exog[0:split], exog[split:]
-    past_y = [x for x in train_y]
-    past_exog = [x for x in train_exog]
-
-    predictions = list()
-    for i in range(len(test_y)):
-        model = SARIMAX(past_y, exog=past_exog, order=order)
-        model_fit = model.fit()
-        future = model_fit.forecast(exog=[past_exog[i]])[0]
-        predictions.append(future)
-        past_y.append(test_y[i])
-        past_exog.append(test_exog[i])
-
-    error = mean_squared_error(test_y, predictions)
-
-    return error
-
-################################################################################
-
-def model_eval(data, pvals, dvals, qvals, exog=None):
-    '''
-    Function to evaluate different ARIMA models with several different p, d, and q values.
-    '''
-
-    if exog is None:
-        print('Evaluating ARIMA models...')
-    else:
-        print('Evaluating SARIMA models...')
-
-
-    best_score, best_cfg = float('inf'), None
-    for p in pvals:
-        for d in dvals:
-            for q in qvals:
-                order = (p, d, q)
-                try:
-                    mse = arima_mse(data, order) if exog==None else sarima_mse(data, exog, order)
-                    if mse < best_score:
-                        best_score, best_cfg = mse, order
-                    print('ARIMA%s MSE=%.3E' % (order, mse))
-                    
-                except:
-                    continue
-    print('Best ARIMA%s MSE=%.3E' % (best_cfg, best_score))
-    return best_cfg
 
 ################################################################################
 
