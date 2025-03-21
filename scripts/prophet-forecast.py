@@ -7,7 +7,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Load data
-datapath = './springboard_dsc_capstone3/data/'
+datapath = '../data/'
 df = pd.read_csv(datapath + '9-8.csv')
 df = df[['Average Price of Electricity to Ultimate Customers, Commercial', 'Month']]
 df.head()
