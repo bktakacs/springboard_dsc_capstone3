@@ -46,7 +46,7 @@ The project is divided into four main phases:
 - **Akaike Information Criterion (AIC) / Bayesian Information Criterion (BIC)**
 
 ## Results & Findings
-- Best performing model was a SARIMAX(212) model using US population as the exogenous variable, scored a MSE of 0.04.
+- Best performing models were SARIMAX and Exponential Smoothing.
 
 ## Future Work
 - Include additional economic indicators as exogenous variables.
