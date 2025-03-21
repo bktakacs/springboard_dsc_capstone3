@@ -6,8 +6,13 @@ This project aims to predict U.S. monthly energy prices using machine learning a
 ## Repository Structure
 ```
 📂 springboard_dsc_capstone3
-│-- 📂 data               # Raw and processed datasets
-│-- 📂 notebooks          # Jupyter notebooks with analysis and model development
+│-- 📂 data                    # Raw and processed datasets
+│-- 📂 figures                 # Model forecast figures
+│-- 📂 notebooks               # Jupyter notebooks with analysis and model development
+│-- 📂 scripts                 # Python scripts for converting data and defining functions
+|-- Capstone Three Report.pdf  # Project report with final findings
+|-- glossary.pdf                # Explanation from EIA of terms used in data
+|-- model-metrics.pdf          # Information on final models
 │-- README.md            # Project documentation
 ```
 
@@ -34,7 +39,7 @@ The project is divided into four main phases:
 - Create lag features for machine learning models.
 
 ### 4. Modeling
-- **ARIMA/SARIMA** for traditional time series forecasting.
+- **ARIMA/SARIMAX** for traditional time series forecasting.
 - **VAR** (Vector Autoregression) for multi-variable forecasting.
 - **Facebook Prophet** for automated time series forecasting.
 - **Exponential Smoothing** for trend-based forecasting.
@@ -43,7 +48,7 @@ The project is divided into four main phases:
 ## Evaluation Metrics
 - **Mean Absolute Error (MAE)**
 - **Root Mean Squared Error (RMSE)**
-- **Akaike Information Criterion (AIC) / Bayesian Information Criterion (BIC)**
+- **Akaike Information Criterion (AIC)**
 
 ## Results & Findings
 - Best performing models were SARIMAX and Exponential Smoothing.
