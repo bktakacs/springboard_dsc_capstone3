@@ -26,7 +26,6 @@ The project is divided into four main phases:
 ### 1. Data Wrangling
 - Load and clean the dataset.
 - Handle missing values and outliers.
-- Convert date columns to datetime format.
 
 ### 2. Exploratory Data Analysis (EDA)
 - Visualize time series trends.
@@ -34,7 +33,6 @@ The project is divided into four main phases:
 - Examine correlations using heatmaps and scatter plots.
 
 ### 3. Data Preprocessing
-- Apply differencing to make the data stationary.
 - Scale and normalize features.
 - Create lag features for machine learning models.
 
